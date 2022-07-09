@@ -1,4 +1,4 @@
-import CartContext from "./store.context";
+import CartContext from "./cart-context";
 
 const cartProvider = (props) => {
   const addItemToCartHandler = (item) => {};
