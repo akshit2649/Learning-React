@@ -21,7 +21,7 @@ const cartReducer = (state, action) => {
   return defaultCartState;
 };
 
-const cartProvider = (props) => {
+const CartProvider = (props) => {
   //[State snapshot, function which allows to dispatch an action]
   const [cartState, dispatchCartAction] = useReducer(
     cartReducer,
@@ -47,4 +47,4 @@ const cartProvider = (props) => {
   );
 };
 
-export default cartProvider;
+export default CartProvider;
